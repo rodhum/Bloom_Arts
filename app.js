@@ -38,7 +38,7 @@ function switchView(view) {
         tabArtists.classList.remove('active');
         tabArtists.setAttribute('aria-selected', 'false');
 
-        navActionBtn.innerText = 'Registro VIP';
+        navActionBtn.innerText = 'Registro (Entrada Libre)';
         navActionBtn.className = 'btn btn-sm btn-outline';
         navActionBtn.onclick = () => openActionModal('summit');
     } else {
@@ -120,6 +120,6 @@ function handleArtistSubmit(event) {
 function handleSummitSubmit(event) {
     event.preventDefault();
     closeModal('summitModal');
-    showToast('¡Solicitud de Pase VIP Recibida! En breve el Comité Curatorial te contactará.');
+    showToast('¡Registro confirmado exitosamente! Te esperamos en la inauguración de Bloom Art Summit.');
     event.target.reset();
 }
