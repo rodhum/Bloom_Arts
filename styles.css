@@ -143,10 +143,16 @@ a {
     align-items: center;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .nav-logo img {
-    height: 48px;
+    height: 52px;
     width: auto;
-    max-width: 220px;
+    max-width: 240px;
     object-fit: contain;
     display: block;
 }
@@ -1071,9 +1077,9 @@ a {
 }
 
 .footer-logo img {
-    height: 52px;
+    height: 58px;
     width: auto;
-    max-width: 250px;
+    max-width: 280px;
     object-fit: contain;
     margin-bottom: 12px;
 }
